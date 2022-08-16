@@ -201,6 +201,7 @@ ul {
 }
 /* ================ */
 .footer {
+
 	padding: 15px;
 	background-color: #77608d;
 	grid-area: footer;
@@ -216,6 +217,8 @@ ul {
 	.footer__text {
 		grid-column: 3 / 4;
 		text-align: right;
+    color: #fff;
+    text-decoration: none;
 	}
 }
 @media (max-width: 550px) {
@@ -227,6 +230,8 @@ ul {
 		order: 2;
 	}
 	.footer__text {
+    color: #fff;
+    text-decoration: none;
 		order: 1;
 	}
 }
